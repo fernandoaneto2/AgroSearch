@@ -33,10 +33,10 @@ O arquivo agrosearch_app.py é a aplicação única solicitada. RELATORIO.pdf co
 o relatório de até duas páginas. requirements.txt e este guia apoiam a reprodução.
 
 ## Estado da entrega
-Aplicação implementada, testes matemáticos aprovados e relatório de duas páginas revisado. Os testes de interface das funções principais passaram na execução anterior. No HealthSearch, o bônus Cross-Encoder está implementado, mas ainda não foi validado com pesos reais.
+Aplicação implementada, testes matemáticos aprovados e relatório de duas páginas revisado. Os testes de interface das funções principais (consulta, controles de stopwords/stemming, ordenação por cosseno e entradas vazias) passaram na execução anterior.
 
 ## Testes
 Execute `python testes.py`. Os testes de lógica não baixam modelos.
 
 ## GitHub
-Versione este diretório, incluindo relatório e, na Ouvidoria, dados e notebooks. Não envie ambientes virtuais nem pesos de modelos.
+Este diretório está versionado com código, relatório e requirements. Ambientes virtuais e pesos de modelos não são versionados (ver `.gitignore`).
